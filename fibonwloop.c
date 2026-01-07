@@ -1,26 +1,21 @@
 #include <stdio.h>
 int count;
-int seq(int count, int a, int b, int c);
 int main()
 {
-      // Program to print Fibonacci series till 'n' th term with recurtion
+      // Program to print Fibonacci series till 'n' th term with loop
     printf("enter the n term till which you want to print the series :");
     scanf("%d", &count);
 
     int a = 0, b = 1, c = 1;
     printf("%d\n%d\n",a, b);
-    seq(count, a, b, c);
-}
-int seq(int count, int a, int b, int c)
-{
-    for (int i = 0; i < count; i++)
+     for (int i = 0; i < count; i++)
     {
     printf("%d\n",c);
         a = b;
         b = c;
         c = a + b;
         count=count-1;
-        int seq(int count, int a, int b, int c);
     }
     return 0;
 }
+   
