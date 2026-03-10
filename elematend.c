@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//program to add character at the end of a string
 int main() {
 
     int arr[10];          // capacity
