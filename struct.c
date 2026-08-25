@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<string.h>
 
+//Program to showcase how structure are made and called
+
 struct student {
     int roll;
     float cgpa;
